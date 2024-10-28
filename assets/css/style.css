@@ -113,8 +113,11 @@ body{
     text-align: center;
     padding: 10px;
     background-color: rgb(145, 161, 187);
-    flex-basis: 100%;
+    /* flex-basis: 100%; */
     /* flex: 0 1 auto; */
+    z-index: 10;
+    width: 100%;
+    position: fixed;
 }
 #navbar{
     display: flex;
@@ -125,8 +128,9 @@ body{
     max-width: 200px;
     min-width: 200px;
     position: sticky;
-    top: 0;
+    top: 110px;
     left: 0;
+    /* order: 1; */
 }
 .main-content{
    flex: 1;
@@ -135,11 +139,11 @@ body{
 h2{
     font-size: 55px;
     text-align: center;
-    margin-top: 50px;
+    padding-top: 120px;
 }
 #bio{
     display: flex;
-    align-items: stretch;
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
     row-gap: 50px;
@@ -164,7 +168,10 @@ h2{
 }
 .full-height{
     height: 100vh;
+    padding-left: 50px;
+    padding-right: 50px;
 }
+
 
 
 /* Contact Form */
