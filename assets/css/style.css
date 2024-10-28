@@ -99,6 +99,9 @@ meter {
 :where(dialog:modal) {
     all: revert;
 }
+p{
+    font-size: 30px;
+}
 body{
    display: flex;
    flex-wrap: wrap;
@@ -106,7 +109,6 @@ body{
 }
 #flex-container{
     display: flex;
-    flex: 1;
 }
 #banner{
     font-size: 80px;
@@ -130,7 +132,6 @@ body{
     position: sticky;
     top: 110px;
     left: 0;
-    /* order: 1; */
 }
 .main-content{
    flex: 1;
@@ -141,6 +142,9 @@ h2{
     text-align: center;
     padding-top: 120px;
 }
+h3{
+    font-size: 40px;
+}
 #bio{
     display: flex;
     flex-direction: row;
@@ -150,7 +154,6 @@ h2{
 }
 
 #bio p{
-    font-size: 30px;
     width: 50%;
     align-self: center;
 }
@@ -170,6 +173,15 @@ h2{
     height: 100vh;
     padding-left: 50px;
     padding-right: 50px;
+}
+#flex-projects{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    row-gap: 40px;
+}
+.project-info{
+    margin: 20px 100px 20px 0;
 }
 
 
