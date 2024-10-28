@@ -133,7 +133,15 @@ meter {
     display: flex;
     flex-direction: column;
     position: fixed;
-    top: 0;
+    top: 112px;
     right: 0;
-    padding-top: 120px;
+    height: 300px;
+    justify-content: space-around;
+    font-size: 150%;
+}
+#navbar :hover{
+    background-color: lightgray;
+}
+#navbar a{
+    padding: 40px;
 }
