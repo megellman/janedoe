@@ -7,17 +7,54 @@
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
 </head>
 <body>
-    <h1 id="name">Jane Doe</h1>
-    <section id="bio">
-        <img src="./assets/images/headshot.png" alt="placeholder image of jane doe in a suit from the shoulders up">
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur minus, ratione modi laudantium, animi quos aliquam corporis delectus totam eaque dignissimos facere soluta, cum porro dolorem neque blanditiis fugit a.
-        </p>
-    </section>
-    <nav id="navbar">
-        <a>About Me</a>
-        <a>My Work</a>
-        <a>Contact</a>
-    </nav>
+    <h1 id="banner">Jane Doe</h1>
+    <div id="flex-container">
+        <nav id="navbar">
+            <a href="#about-me">About Me</a>
+            <a href="#my-work">My Work</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <div id="main-content">
+            <div class="full-height">
+                <h2 id="about-me">About Me</h2>
+                <section id="bio">
+                    <img src="./assets/images/headshot.png" alt="placeholder image of jane doe in a suit from the shoulders up">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur minus, ratione modi laudantium, animi quos aliquam corporis delectus totam eaque dignissimos facere soluta, cum porro dolorem neque blanditiis fugit a.
+                    </p>
+                </section>
+            </div>
+            <div class="full-height">
+                <h2 id="my-work">My Work</h2>
+                <section>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur minus, ratione modi laudantium, animi quos aliquam corporis delectus totam eaque dignissimos facere soluta, cum porro dolorem neque blanditiis fugit a.
+                    </p>
+                </section>
+            </div>
+            <div class="full-height">
+                <h2 id="contact">Contact</h2>
+                <section>
+                    <form action="action_page.php">
+            
+                        <label for="fname">First Name</label>
+                        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                    
+                        <label for="lname">Last Name</label>
+                        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                    
+                        <label for="email">Email</label>
+                        <input type="text" id="email" name="email">
+                    
+                        <label for="subject">Subject</label>
+                        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                    
+                        <input type="submit" value="Submit">
+                    
+                      </form>
+                </section>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
