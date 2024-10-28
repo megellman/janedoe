@@ -104,8 +104,10 @@ meter {
     font-size: 80px;
     text-align: center;
     padding: 10px;
-    margin-bottom: 50px;
     background-color: rgb(145, 161, 187);
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 #bio{
     display: flex;
@@ -113,6 +115,7 @@ meter {
     flex-wrap: wrap;
     justify-content: space-evenly;
     row-gap: 50px;
+    margin-top: 150px;
 }
 
 #bio p{
@@ -125,4 +128,12 @@ meter {
     width: 20%;
     min-width: 250px;
     border: 8px black solid;
+}
+#navbar{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding-top: 120px;
 }
