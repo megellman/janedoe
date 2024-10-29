@@ -99,7 +99,7 @@ meter {
 :where(dialog:modal) {
     all: revert;
 }
-p{
+p, label, input, textarea{
     font-size: 30px;
 }
 body{
@@ -124,14 +124,16 @@ body{
 #navbar{
     display: flex;
     flex-direction: column;
-    height: 300px;
-    justify-content: space-around;
-    font-size: 150%;
+    height: 100vh;
+    justify-content: flex-start;
+    font-size: 20px;
     max-width: 200px;
     min-width: 200px;
     position: sticky;
-    top: 110px;
+    top: 0;
     left: 0;
+    background-color: rgb(145, 161, 187);
+    padding-top: 110px;
 }
 .main-content{
    flex: 1;
@@ -201,7 +203,7 @@ input[type=text], select, textarea {
   
   /* Style the submit button with a specific background color etc */
   input[type=submit] {
-    background-color: #04AA6D;
+    background-color: rgb(58, 81, 117);
     color: white;
     padding: 12px 20px;
     border: none;
@@ -211,7 +213,7 @@ input[type=text], select, textarea {
   
   /* When moving the mouse over the submit button, add a darker green color */
   input[type=submit]:hover {
-    background-color: #45a049;
+    background-color: rgb(111, 120, 136);
   }
   
   /* Add a background color and some padding around the form */
