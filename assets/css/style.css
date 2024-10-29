@@ -148,25 +148,17 @@ h3{
     font-size: 40px;
 }
 #bio{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    row-gap: 50px;
+    padding-top: 20px;
 }
-
-#bio p{
-    width: 50%;
-    align-self: center;
-}
-
 #bio img{
     width: 20%;
     min-width: 250px;
     border: 5px rgb(47, 49, 52) solid;
+    float: left;
+    margin: 10px 40px;
 }
 #navbar :hover{
-    background-color: rgba(145, 161, 187, 0.174);
+    background-color: rgb(160, 174, 195);
 }
 #navbar a{
     padding: 40px;
