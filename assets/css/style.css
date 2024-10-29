@@ -100,19 +100,18 @@ meter {
     all: revert;
 }
 p, label, input, textarea{
-    font-size: 30px;
+    font-size: 3vh;
 }
 body{
    display: flex;
    flex-wrap: wrap;
-   height: 100vh;
 }
 #flex-container{
     display: flex;
 }
 #banner{
-    font-size: 80px;
-    letter-spacing: .15em;
+    font-size: 8vh;
+    letter-spacing: .9vw;
     text-align: center;
     padding: 10px;
     background-color: rgb(145, 161, 187);
@@ -126,7 +125,7 @@ body{
     flex-direction: column;
     height: 100vh;
     justify-content: flex-start;
-    font-size: 20px;
+    font-size: 2.5vh;
     max-width: 200px;
     min-width: 200px;
     position: sticky;
@@ -135,23 +134,23 @@ body{
     background-color: rgb(145, 161, 187);
     padding-top: 110px;
 }
-.main-content{
+/* .main-content{
    flex: 1;
    overflow-y: auto;
-}
+} */
 h2{
-    font-size: 55px;
-    letter-spacing: .3em;
+    font-size: 5.2vh;
+    letter-spacing: .5vw;
     padding: 150px 0 20px 0;
 }
 h3{
-    font-size: 40px;
+    font-size: 3.8vh;
 }
 #bio{
     padding-top: 20px;
 }
 #bio p{
-    line-height: 1.4em;
+    line-height: 4.5vh;
 }
 #bio img{
     width: 20%;
@@ -167,7 +166,6 @@ h3{
     padding: 40px;
 }
 .full-height{
-    height: 100vh;
     padding-left: 50px;
     padding-right: 50px;
 }
